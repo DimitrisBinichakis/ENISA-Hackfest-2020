@@ -36,7 +36,7 @@ someone logs in as user through FTP , and uploads flag.zip . Then , they downloa
 
 ![ftp](https://user-images.githubusercontent.com/73142671/104407625-b8c8e500-556a-11eb-8e70-bfef98c13dee.png)
 
-
+---------------------------------------------------------------------------------------
 
 Continuing forward , lets analyze the TELNET packets . Filtering for TELNET in wireshark , we select whichever
 packet , right click it , select follow and then follow TCP stream .
@@ -46,7 +46,9 @@ doesnt seem to be the password for the .zip files .
 
 ![tel1](https://user-images.githubusercontent.com/73142671/104408224-448f4100-556c-11eb-8973-6abd53b0a606.png)
 
-In this snippet we see that " dgyfogfoewyeowyefowouevftowyefg " is being written to password.txt :
+----------------------------------------------------------------------------------------
+
+In this snippet bellow we see that " dgyfogfoewyeowyefowouevftowyefg " is being written to password.txt :
 
  " ccaatt  dgyfogfoewyeowyefowouevftowyefgdgyfogfoewyeowyefowouevftowyefg  >>  ppaa 
     .ssss	word.txt "
