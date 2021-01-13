@@ -24,16 +24,19 @@ Peeking inside *00000061.zip* and *00000062.zip* we find out that they contain t
 however when trying to extract the zip files in order to get to the flag we are met with a prompt asking
 us for a password . Let's take a look at the pcap and see if we can find the password .
 
-![hierarchypcap](https://user-images.githubusercontent.com/73142671/104407215-c893f980-5569-11eb-87cc-cb40a91cf969.png)
-
 Looking at the protocol hierarchy statistics , we can get a general overview of the protocols used in the
 capture . FTP immediately catches my eye , since protocols like FTP , HTTP , TELNET are unencrypted by
 default and can reveal a lot of useful information .
 
-![ftp](https://user-images.githubusercontent.com/73142671/104407625-b8c8e500-556a-11eb-8e70-bfef98c13dee.png)
+![hierarchypcap](https://user-images.githubusercontent.com/73142671/104407215-c893f980-5569-11eb-87cc-cb40a91cf969.png)
 
 Here is a snippet of the FTP traffic , in summary we can tell that someone logs in as user through FTP , and 
 uploads flag.zip . Then , they download a file called password.txt . 
+
+
+![ftp](https://user-images.githubusercontent.com/73142671/104407625-b8c8e500-556a-11eb-8e70-bfef98c13dee.png)
+
+
 
 Continuing forward , lets analyze the TELNET packets . Filtering for TELNET in wireshark , we select whichever
 packet , right click it , select follow and then follow TCP stream .
