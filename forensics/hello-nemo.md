@@ -41,19 +41,18 @@ someone logs in as user through FTP , and uploads flag.zip . Then , they downloa
 Continuing forward , lets analyze the TELNET packets . Filtering for TELNET in wireshark , we select whichever
 packet , right click it , select follow and then follow TCP stream .
 
-![tel1](https://user-images.githubusercontent.com/73142671/104408224-448f4100-556c-11eb-8973-6abd53b0a606.png)
-
-
 We can tell that someone is poking around in here , running a lot of commands . However , aadysgaugysdihsasdh
 doesnt seem to be the password for the .zip files .
 
-
-![fin89](https://user-images.githubusercontent.com/73142671/104408538-deef8480-556c-11eb-8dd1-4952c8375928.png)
+![tel1](https://user-images.githubusercontent.com/73142671/104408224-448f4100-556c-11eb-8973-6abd53b0a606.png)
 
 In this snippet we see that " dgyfogfoewyeowyefowouevftowyefg " is being written to password.txt :
 
  " ccaatt  dgyfogfoewyeowyefowouevftowyefgdgyfogfoewyeowyefowouevftowyefg  >>  ppaa 
     .ssss	word.txt "
+    
+![fin89](https://user-images.githubusercontent.com/73142671/104408538-deef8480-556c-11eb-8dd1-4952c8375928.png)
+
 
 Now unziping 00000061.zip with " dgyfogfoewyeowyefowouevftowyefg " as the password when prompted , we get the flag.
 
