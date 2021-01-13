@@ -28,7 +28,7 @@ us for a password . Let's take a look at the pcap and see if we can find the pas
 
 Looking at the protocol hierarchy statistics , we can get a general overview of the protocols used in the
 capture . FTP immediately catches my eye , since protocols like FTP , HTTP , TELNET are unencrypted by
-default and can reveal a lot of usefull information .
+default and can reveal a lot of useful information .
 
 ![ftp](https://user-images.githubusercontent.com/73142671/104407625-b8c8e500-556a-11eb-8e70-bfef98c13dee.png)
 
