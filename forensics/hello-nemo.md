@@ -13,9 +13,9 @@ Running
 
 outputs :
 
-  |foundat=flag.txtUT
-   foundat=flag.txtUT
- *|
+  |foundat=flag.txtUT <br/>
+   foundat=flag.txtUT <br/>
+ *| <br/>
 
 Foremost seems to have found an interesting file , flag.txt , and it also created a .zip folder located
 inside the /output/ directory . The zip folder contains two zip files :*00000061.zip* and *00000062.zip*
