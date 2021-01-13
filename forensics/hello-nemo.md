@@ -60,5 +60,5 @@ In this snippet bellow we see that " dgyfogfoewyeowyefowouevftowyefg " is being 
 
 Now unziping 00000061.zip with " dgyfogfoewyeowyefowouevftowyefg " as the password when prompted , we get the flag.
 
-DCTF{3907879c7744872694209e3ea9d2697508b7a0a464afddb2660de7ed0052d7a7}
+**DCTF{3907879c7744872694209e3ea9d2697508b7a0a464afddb2660de7ed0052d7a7}**
 
