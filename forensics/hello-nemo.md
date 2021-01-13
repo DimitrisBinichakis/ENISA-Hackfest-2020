@@ -30,6 +30,8 @@ default and can reveal a lot of useful information .
 
 ![hierarchypcap](https://user-images.githubusercontent.com/73142671/104407215-c893f980-5569-11eb-87cc-cb40a91cf969.png)
 
+---------------------------------------------------------------------------------------
+
 Here is a small snippet of the FTP traffic , in summary by analyzing some more FTP packets we can tell that 
 someone logs in as user through FTP , and uploads flag.zip . Then , they download a file called password.txt . 
 
